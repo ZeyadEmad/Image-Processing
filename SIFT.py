@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('home.jpg')
+img = cv2.imread('download.jpg')
 gray= cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
 cv2.imshow('Original image',img)
